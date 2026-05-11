@@ -14,8 +14,7 @@ p{
 }
 li{
     margin-left: 1rem;
-<<<<<<< HEAD
-=======
+
     color: gray;
 }
 h3{
@@ -40,7 +39,6 @@ h4{
 .option p strong{
     color: gold;
     font-weight: 500;
->>>>>>> a1b1fc0ed8e7a5e312fc8964576a33db58429a79
 }
 .button{
     width: fit-content;
