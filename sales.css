@@ -1,0 +1,309 @@
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0%;
+    color: whitesmoke;
+}
+html,body{
+    overflow-x: hidden;
+}
+.overlay{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+.button{
+    width: fit-content;
+    height: fit-content;
+    padding: .5rem 1rem;
+    background-color: rgb(0, 45, 104);
+    color: rgb(255, 255, 174);
+}
+
+.container{
+    width: 80%;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.06);
+    background: rgba(0, 0, 0, 0.32);
+    backdrop-filter: blur(8px) saturate(100%);
+    -webkit-backdrop-filter: blur(8px) saturate(100%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.welcome-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-image: url(assets/HeroBack00.jpg);
+    
+}
+.welcome-section img{
+    max-width: 70px;
+    background: rgba(255, 255, 255, 0.06);
+    background: rgba(0, 0, 0, 0.32);
+    backdrop-filter: blur(8px) saturate(100%);
+    -webkit-backdrop-filter: blur(8px) saturate(100%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    
+}
+.welcome-section h1{
+    z-index: 1;
+    width: fit-content;
+    color: #ffa600;
+    text-shadow: black 1px 1px 3px;
+}
+.welcome-section p{
+    width: 90%;
+    max-width: 1100px;
+    color: rgb(148, 148, 148);
+    z-index: 1;
+    margin: 1rem 0;
+    text-shadow: black 1px 1px 3px;
+}
+.cards-container{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+.cards-container > *{
+    flex: 1;
+}
+.card{
+    border: solid .5px #00000040;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 1rem;
+    max-width: 300px;
+    min-width: 280;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(22px) saturate(100%);
+    -webkit-backdrop-filter: blur(22px) saturate(100%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+.card h2{
+    color: #5d9effea;
+    text-shadow: black 1px 1px 3px;
+}
+li{
+    color: rgb(148, 148, 148);
+    text-shadow: black 1px 1px 3px;
+}
+.card-content{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    color: rgb(180, 180, 180);}
+.sub-tasks > *{
+    margin-left: 2rem;
+}
+strong{
+    color: rgb(180, 180, 180);
+    text-shadow: black 1px 1px 3px;
+}
+
+
+
+@media (max-width: 1440px) {
+    p, li{
+        font-size: small;
+    }
+    .card{
+        padding: .5rem;
+    }
+    h2{
+        font-size: 1rem;
+    } 
+    h1{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 950px) {
+    .cards-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 90%;
+        max-width: none;
+    }
+    .welcome-section{
+        padding: 1rem 0rem;
+        height: fit-content;
+    }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0%;
+    color: whitesmoke;
+}
+html,body{
+    overflow-x: hidden;
+}
+.overlay{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+.button{
+    width: fit-content;
+    height: fit-content;
+    padding: .2rem .6rem;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 174);
+    border-radius: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+    text-shadow: black 1px 1px 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    width: 80%;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.06);
+    background: rgba(0, 0, 0, 0.32);
+    backdrop-filter: blur(8px) saturate(100%);
+    -webkit-backdrop-filter: blur(8px) saturate(100%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.welcome-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    background-image: url(assets/HeroBack00.jpg);
+    
+}
+.welcome-section img{
+    max-width: 70px;
+    background: rgba(255, 255, 255, 0.06);
+    background: rgba(0, 0, 0, 0.32);
+    backdrop-filter: blur(8px) saturate(100%);
+    -webkit-backdrop-filter: blur(8px) saturate(100%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    
+}
+.welcome-section h1{
+    z-index: 1;
+    width: fit-content;
+    color: #ffa600;
+    text-shadow: black 1px 1px 3px;
+}
+.welcome-section p{
+    width: 90%;
+    max-width: 1100px;
+    color: rgb(148, 148, 148);
+    z-index: 1;
+    margin: 1rem 0;
+    text-shadow: black 1px 1px 3px;
+}
+.cards-container{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+.cards-container > *{
+    flex: 1;
+}
+.card{
+    border: solid .5px #00000040;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 1rem;
+    max-width: 300px;
+    min-width: 280;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(22px) saturate(100%);
+    -webkit-backdrop-filter: blur(22px) saturate(100%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+.card h2{
+    color: #5d9effea;
+    text-shadow: black 1px 1px 3px;
+}
+li{
+    color: rgb(148, 148, 148);
+    text-shadow: black 1px 1px 3px;
+}
+.card-content{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    color: rgb(180, 180, 180);}
+.sub-tasks > *{
+    margin-left: 2rem;
+}
+strong{
+    color: rgb(180, 180, 180);
+    text-shadow: black 1px 1px 3px;
+}
+
+
+
+@media (max-width: 1440px) {
+    p, li{
+        font-size: small;
+    }
+    .card{
+        padding: .5rem;
+    }
+    h2{
+        font-size: 1rem;
+    } 
+    h1{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 950px) {
+    .cards-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 90%;
+        max-width: none;
+    }
+    .welcome-section{
+        padding: 1rem 0rem;
+        height: fit-content;
+    }
+>>>>>>> a1b1fc0ed8e7a5e312fc8964576a33db58429a79
+}

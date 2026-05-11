@@ -1,0 +1,519 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Icons -->
+<!-- Brand Icons -->
+<link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKIL-Sales</title>
+</head>
+<body>
+    <main>
+        <header class="header">
+            <div class="logo-container">
+                <img class="logo" src="assets/SKIL-LOGO.png" alt="">
+                <h1>SKIL</h1>
+            </div>
+            <a href="#contact" class="button">Contact Us</a>
+            
+        </header>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>SIRI KUVI ESTATE</h1>
+                <h2>"Building Living Spaces for Everyday Papua New Guineans"</h2>
+                <p>A nationally owned vision redefining residential and commercial living in Port Moresby. Siri Kuvi Estate brings together quality housing, thriving business spaces, and a vibrant community designed for modern Papua New Guinea.</p>
+                <a href="#contact" class="button">Register Your Interest</a>
+            </div>
+                <iframe class="map" src="https://www.google.com/maps/d/u/0/embed?mid=1feuwDk1jKrgMdXr99G80EUlKydPmmbQ&ehbc=2E312F" width="640" height="480"></iframe>
+        </section>
+        <section class="quick-stats">
+                <div class="card">
+                    <h3>Titled Land</h3>
+                    <p>64 Ha</p>
+                </div>
+                <div class="card">
+                    <h3>Subdivided Allotments</h3>
+                    <p>800+</p>
+                </div>
+                <div class="card">
+                    <h3>Homes Successfully Delivered</h3>
+                    <p>82</p>
+                </div>
+        </section>
+        <section class="overview">
+                <h2>Overview</h2>
+            <p><strong>Siri Kuvi Investment Ltd</strong> (SKIL) is a proudly Papua New Guinean-owned company committed to transforming the way communities are built and experienced.
+
+Located on Portion 2305 in Port Moresby, Siri Kuvi Estate represents the next evolution of urban living — a carefully planned environment where residential comfort, commercial opportunity, and community wellbeing exist in one integrated ecosystem.
+
+This is more than a development. It is a long-term vision to create sustainable, accessible, and high-quality living spaces for hardworking Papua New Guineans.
+            </p>
+
+        </section>
+        <section class="support">
+                <img src="assets/hero1.jpg" alt="">
+                <div class="support-content">
+                    <h2>The Vision</h2>
+                    <h3>"Beyond Tomorrow"</h3>
+                    <p>
+                        A balanced ecosystem of:
+                    </p>
+                    <ul>
+                        <li>Residential living</li>
+                        <li>Commercial opportunity</li>
+                        <li>Community spaces</li>
+                    </ul>
+                    <p>Built to raise the standard of living in Port Moresby.</p>
+                </div>
+        </section>
+        <section class="house-types">
+            <h2>What We Offer</h2>
+            <div class="type-container">
+                <div class="type-card">
+                    <div class="t-card-text">
+                        <h3>Residential</h3>
+                        <p>Affordable, well-managed rental homes designed for comfort, safety, and convenience — ideal for working professionals and families.</p>
+                        <a href="/" class="button">Explore</a>
+                    </div>
+                        <img src="assets/support.jpg" alt="">
+
+                </div>
+                <div class="type-card">
+                    <div class="t-card-text">
+                        <h3>Commercial</h3>
+                        <p>Retail, office, and warehouse spaces within a growing community, offering strong customer demand and long-term business potential.</p>
+                        <a href="/" class="button">Explore</a>
+                    </div>
+                        <img src="assets/p4.png" alt="">
+                </div>
+            </div>
+            
+        </section>
+        <section class="trust">
+                <div class="trust-text">
+                    <h2>Why Siri Kuvi</h2>
+                    <ul>
+                        <li>Proven track record (82 homes completed)</li>
+                        <li>Prime location near key city hubs</li>
+                        <li>Planned, regulated community</li>
+                        <li>Strong focus on quality and sustainability</li>
+                    </ul>
+                </div>
+                <img src="assets/community.jpg" alt="">           
+        </section>
+        <section class="contact" id="contact">
+                <h2>Contact Us</h2>
+                <div class="form-container">
+                    <form id="interestForm" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="27208c0e-eeba-4262-a926-3613c178b14e">
+                        <input type="hidden" name="subject" value="New Siri Kuvi Website Enquiry">
+                        <!-- Basic Info -->
+                        <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                        <label>Phone Number</label>
+                        <input type="tel" name="phone" required>
+                        </div>
+
+                        <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" name="email" required>
+                        </div>
+
+                        <!-- Interest Type -->
+                        <div class="form-group">
+                        <label>I am interested in:</label>
+                        <select id="interestType" name="interest" required>
+                            <option value="">Select option</option>
+                            <option value="residential">Residential Rental</option>
+                            <option value="commercial">Commercial Space</option>
+                            <option value="general">General Enquiry</option>
+                        </select>
+                        </div>
+
+                        <!-- Residential Fields -->
+                        <div id="residentialFields" class="hidden">
+                        <div class="form-group">
+                            <label>Preferred House Size</label>
+                            <input type="text" name="houseSize">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Move-in Timeline</label>
+                            <select name="moveIn">
+                            <option>Immediately</option>
+                            <option>1–3 Months</option>
+                            <option>3–6 Months</option>
+                            </select>
+                        </div>
+                        </div>
+
+                        <!-- Commercial Fields -->
+                        <div id="commercialFields" class="hidden">
+                        <div class="form-group">
+                            <label>Type of Business</label>
+                            <input type="text" name="businessType">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Space Required</label>
+                            <input type="text" name="space">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Preferred Use</label>
+                            <select name="use">
+                            <option>Retail</option>
+                            <option>Office</option>
+                            <option>Warehouse</option>
+                            </select>
+                        </div>
+                        </div>
+
+                        <!-- Message -->
+                        <div class="form-group">
+                        <label>Additional Details</label>
+                        <textarea name="message" rows="4"></textarea>
+                        </div>
+
+                        <!-- Timeline -->
+                        <div class="form-group">
+                        <label>When are you looking to proceed?</label>
+                        <select name="timeline">
+                            <option>Immediately</option>
+                            <option>1–3 Months</option>
+                            <option>3–6 Months</option>
+                            <option>Just exploring</option>
+                        </select>
+                        </div>
+
+                        <!-- Consent -->
+                        <div class="form-group">
+                        <label>
+                            I agree to be contacted<input class="check" type="checkbox" required> 
+                        </label>
+                        </div>
+                        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                        <button type="submit" class="button">Register Interest</button>
+
+                        <p class="success" id="successMessage">
+                        Thank you! We will contact you shortly.
+                        </p>
+
+                </form>
+        </div>
+
+<script>
+  const interestType = document.getElementById("interestType");
+  const residentialFields = document.getElementById("residentialFields");
+  const commercialFields = document.getElementById("commercialFields");
+
+  interestType.addEventListener("change", () => {
+    residentialFields.classList.add("hidden");
+    commercialFields.classList.add("hidden");
+
+    if (interestType.value === "residential") {
+      residentialFields.classList.remove("hidden");
+    }
+
+    if (interestType.value === "commercial") {
+      commercialFields.classList.remove("hidden");
+    }
+  });
+
+  // Form submission (demo)
+  const form = document.getElementById("interestForm");
+  const successMessage = document.getElementById("successMessage");
+
+ form.addEventListener("submit", async function(e) {
+  e.preventDefault();
+
+  const formData = new FormData(form);
+
+  const response = await fetch("https://api.web3forms.com/submit", {
+    method: "POST",
+    body: formData
+  });
+
+  const result = await response.json();
+
+  if (result.success) {
+    successMessage.style.display = "block";
+    form.reset();
+  } else {
+    alert("Something went wrong. Please try again.");
+  }
+});
+</script>
+
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Icons -->
+<!-- Brand Icons -->
+<link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKIL-Sales</title>
+</head>
+<body>
+    <main>
+        <header class="header">
+            <div class="logo-container">
+                <img class="logo" src="assets/SKIL-LOGO.png" alt="">
+                <h1>SKIL</h1>
+            </div>
+            <a href="#contact" class="button">Contact Us</a>
+            
+        </header>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>SIRI KUVI ESTATE</h1>
+                <h2>"Building Living Spaces for Everyday Papua New Guineans"</h2>
+                <p>A nationally owned vision redefining residential and commercial living in Port Moresby. Siri Kuvi Estate brings together quality housing, thriving business spaces, and a vibrant community designed for modern Papua New Guinea.</p>
+                <a href="#contact" class="button">Register Your Interest</a>
+            </div>
+                <img src="assets/ariel2.png" alt="Hero-Image">
+        </section>
+        <section class="quick-stats">
+                <div class="card">
+                    <h3>Titled Land</h3>
+                    <p>64 Ha</p>
+                </div>
+                <div class="card">
+                    <h3>Subdivided Allotments</h3>
+                    <p>800+</p>
+                </div>
+                <div class="card">
+                    <h3>Homes Successfully Delivered</h3>
+                    <p>82</p>
+                </div>
+        </section>
+        <section class="overview">
+                <h2>Overview</h2>
+            <p><strong>Siri Kuvi Investment Ltd</strong> (SKIL) is a proudly Papua New Guinean-owned company committed to transforming the way communities are built and experienced.
+
+Located on Portion 2305 in Port Moresby, Siri Kuvi Estate represents the next evolution of urban living — a carefully planned environment where residential comfort, commercial opportunity, and community wellbeing exist in one integrated ecosystem.
+
+This is more than a development. It is a long-term vision to create sustainable, accessible, and high-quality living spaces for hardworking Papua New Guineans.
+            </p>
+
+        </section>
+        <section class="support">
+                <img src="assets/hero1.jpg" alt="">
+                <div class="support-content">
+                    <h2>The Vision</h2>
+                    <h3>"Beyond Tomorrow"</h3>
+                    <p>
+                        A balanced ecosystem of:
+                    </p>
+                    <ul>
+                        <li>Residential living</li>
+                        <li>Commercial opportunity</li>
+                        <li>Community spaces</li>
+                    </ul>
+                    <p>Built to raise the standard of living in Port Moresby.</p>
+                </div>
+        </section>
+        <section class="house-types">
+            <h2>What We Offer</h2>
+            <div class="type-container">
+                <div class="type-card">
+                    <div class="t-card-text">
+                        <h3>Residential</h3>
+                        <p>Affordable, well-managed rental homes designed for comfort, safety, and convenience — ideal for working professionals and families.</p>
+                        <a href="/" class="button">Explore</a>
+                    </div>
+                        <img src="assets/support.jpg" alt="">
+
+                </div>
+                <div class="type-card">
+                    <div class="t-card-text">
+                        <h3>Commercial</h3>
+                        <p>Retail, office, and warehouse spaces within a growing community, offering strong customer demand and long-term business potential.</p>
+                        <a href="/" class="button">Explore</a>
+                    </div>
+                        <img src="assets/p4.png" alt="">
+                </div>
+            </div>
+            
+        </section>
+        <section class="trust">
+                <div class="trust-text">
+                    <h2>Why Siri Kuvi</h2>
+                    <ul>
+                        <li>Proven track record (82 homes completed)</li>
+                        <li>Prime location near key city hubs</li>
+                        <li>Planned, regulated community</li>
+                        <li>Strong focus on quality and sustainability</li>
+                    </ul>
+                </div>
+                <img src="assets/community.jpg" alt="">           
+        </section>
+        <section class="contact" id="contact">
+                <h2>Contact Us</h2>
+                <div class="form-container">
+                    <form id="interestForm" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="27208c0e-eeba-4262-a926-3613c178b14e">
+                        <input type="hidden" name="subject" value="New Siri Kuvi Website Enquiry">
+                        <!-- Basic Info -->
+                        <div class="form-group">
+                        <label>Full Name</label>
+                        <input type="text" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                        <label>Phone Number</label>
+                        <input type="tel" name="phone" required>
+                        </div>
+
+                        <div class="form-group">
+                        <label>Email Address</label>
+                        <input type="email" name="email" required>
+                        </div>
+
+                        <!-- Interest Type -->
+                        <div class="form-group">
+                        <label>I am interested in:</label>
+                        <select id="interestType" name="interest" required>
+                            <option value="">Select option</option>
+                            <option value="residential">Residential Rental</option>
+                            <option value="commercial">Commercial Space</option>
+                            <option value="general">General Enquiry</option>
+                        </select>
+                        </div>
+
+                        <!-- Residential Fields -->
+                        <div id="residentialFields" class="hidden">
+                        <div class="form-group">
+                            <label>Preferred House Size</label>
+                            <input type="text" name="houseSize">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Move-in Timeline</label>
+                            <select name="moveIn">
+                            <option>Immediately</option>
+                            <option>1–3 Months</option>
+                            <option>3–6 Months</option>
+                            </select>
+                        </div>
+                        </div>
+
+                        <!-- Commercial Fields -->
+                        <div id="commercialFields" class="hidden">
+                        <div class="form-group">
+                            <label>Type of Business</label>
+                            <input type="text" name="businessType">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Space Required</label>
+                            <input type="text" name="space">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Preferred Use</label>
+                            <select name="use">
+                            <option>Retail</option>
+                            <option>Office</option>
+                            <option>Warehouse</option>
+                            </select>
+                        </div>
+                        </div>
+
+                        <!-- Message -->
+                        <div class="form-group">
+                        <label>Additional Details</label>
+                        <textarea name="message" rows="4"></textarea>
+                        </div>
+
+                        <!-- Timeline -->
+                        <div class="form-group">
+                        <label>When are you looking to proceed?</label>
+                        <select name="timeline">
+                            <option>Immediately</option>
+                            <option>1–3 Months</option>
+                            <option>3–6 Months</option>
+                            <option>Just exploring</option>
+                        </select>
+                        </div>
+
+                        <!-- Consent -->
+                        <div class="form-group">
+                        <label>
+                            I agree to be contacted<input class="check" type="checkbox" required> 
+                        </label>
+                        </div>
+                        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+                        <button type="submit" class="button">Register Interest</button>
+
+                        <p class="success" id="successMessage">
+                        Thank you! We will contact you shortly.
+                        </p>
+
+                </form>
+        </div>
+
+<script>
+  const interestType = document.getElementById("interestType");
+  const residentialFields = document.getElementById("residentialFields");
+  const commercialFields = document.getElementById("commercialFields");
+
+  interestType.addEventListener("change", () => {
+    residentialFields.classList.add("hidden");
+    commercialFields.classList.add("hidden");
+
+    if (interestType.value === "residential") {
+      residentialFields.classList.remove("hidden");
+    }
+
+    if (interestType.value === "commercial") {
+      commercialFields.classList.remove("hidden");
+    }
+  });
+
+  // Form submission (demo)
+  const form = document.getElementById("interestForm");
+  const successMessage = document.getElementById("successMessage");
+
+ form.addEventListener("submit", async function(e) {
+  e.preventDefault();
+
+  const formData = new FormData(form);
+
+  const response = await fetch("https://api.web3forms.com/submit", {
+    method: "POST",
+    body: formData
+  });
+
+  const result = await response.json();
+
+  if (result.success) {
+    successMessage.style.display = "block";
+    form.reset();
+  } else {
+    alert("Something went wrong. Please try again.");
+  }
+});
+</script>
+
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+>>>>>>> a1b1fc0ed8e7a5e312fc8964576a33db58429a79

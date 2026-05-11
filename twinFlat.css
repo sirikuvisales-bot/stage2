@@ -1,0 +1,334 @@
+<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0%;
+    color: whitesmoke;   
+}
+html,body{
+    overflow-x: hidden;
+}
+main{
+    background-image: url(assets/HeroBack00.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    padding: 4rem 10rem;
+    height: fit-content;
+}
+h3{
+    color: goldenrod;
+}
+p, li{
+    color: gray;
+}
+li{
+    margin-left: 2rem;
+}
+h4{
+    color: rgb(219, 219, 219);
+}
+.button{
+    width: fit-content;
+    height: fit-content;
+    padding: .2rem .6rem;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 174);
+    border-radius: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+    text-shadow: black 1px 1px 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.overview{
+    display: flex;
+    width: 80%;
+    height: auto;
+    flex-direction: column;
+    padding: 1rem 0;
+    margin: 0rem;
+    
+}
+.overview > *{
+    width: 100%;
+    max-width: 700px;
+}
+.projects{
+    width: fit-content;
+    max-width: 700px;
+    margin: 0rem 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: rgba(255, 255, 255, 0.06);
+    background: rgba(0, 0, 0, 0.32);
+    backdrop-filter: blur(8px) saturate(100%);
+    -webkit-backdrop-filter: blur(8px) saturate(100%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 2rem;
+}
+.project{
+    width: 80%;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.project-heading{
+    text-shadow: 1px 1px 3px black;
+}
+.payment-options{
+    margin: 1rem 0 .5rem;
+    font-weight: 600;
+    color: gainsboro;
+    text-shadow: 1px 1px 3px black;
+}
+.options-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0rem;
+    max-width: 700px;
+    flex: 1;
+}
+.option{
+    padding: 1rem;
+    flex: 1;
+    gap: .5rem;
+    width: 100;
+    min-width: none;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background: rgba(255, 255, 255, 0.06);
+    background: rgba(0, 0, 0, 0.32);
+    backdrop-filter: blur(8px) saturate(100%);
+    -webkit-backdrop-filter: blur(8px) saturate(100%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.option h3 span{
+    color: #5d9effea;
+}
+.remarks{
+    color: rgb(0, 255, 0);
+}
+.option h4 span{
+    color: gold;
+    font-weight: 500;
+}
+.option h4{
+    font-weight: 300;
+}
+@media (max-width: 900px) {
+    .button{
+        font-size: small;
+    }
+    p, li{
+        font-size: small;
+    }   
+    h1{
+        font-size: large;
+    }
+    h2{
+        font-size: medium;
+    }
+    h3{
+        font-size: small;
+    }
+    h4{
+        font-size: small;
+    }
+    .project{
+        width: 90%;
+        align-items: center;
+    }
+    main{
+        padding: 2rem;
+    }
+    .projects{
+        padding: 1rem;
+    }
+}
+@media (max-width: 500px) {
+    main{
+        padding: 1rem;
+    }
+    .projects{
+        padding: .5rem;
+    }
+=======
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: Montserrat;
+    margin: 0;
+    padding: 0%;
+    color: whitesmoke;   
+}
+html,body{
+    overflow-x: hidden;
+}
+main{
+    background-image: url(assets/HeroBack00.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    padding: 4rem 10rem;
+    height: fit-content;
+}
+h3{
+    color: goldenrod;
+}
+p, li{
+    color: gray;
+}
+li{
+    margin-left: 2rem;
+}
+h4{
+    color: rgb(219, 219, 219);
+}
+.button{
+    width: fit-content;
+    height: fit-content;
+    padding: .2rem .6rem;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 174);
+    border-radius: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+    text-shadow: black 1px 1px 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.overview{
+    display: flex;
+    width: 80%;
+    height: auto;
+    flex-direction: column;
+    padding: 1rem 0;
+    margin: 0rem;
+    
+}
+.overview > *{
+    width: 100%;
+    max-width: 700px;
+}
+.projects{
+    width: fit-content;
+    max-width: 700px;
+    margin: 0rem 0 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: rgba(255, 255, 255, 0.06);
+    background: rgba(0, 0, 0, 0.32);
+    backdrop-filter: blur(8px) saturate(100%);
+    -webkit-backdrop-filter: blur(8px) saturate(100%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 2rem;
+}
+.project{
+    width: 80%;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+.project-heading{
+    text-shadow: 1px 1px 3px black;
+}
+.payment-options{
+    margin: 1rem 0 .5rem;
+    font-weight: 600;
+    color: gainsboro;
+    text-shadow: 1px 1px 3px black;
+}
+.options-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem 0rem;
+    max-width: 700px;
+    flex: 1;
+}
+.option{
+    padding: 1rem;
+    flex: 1;
+    gap: .5rem;
+    width: 100;
+    min-width: none;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background: rgba(255, 255, 255, 0.06);
+    background: rgba(0, 0, 0, 0.32);
+    backdrop-filter: blur(8px) saturate(100%);
+    -webkit-backdrop-filter: blur(8px) saturate(100%);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.option h3 span{
+    color: #5d9effea;
+}
+.remarks{
+    color: rgb(0, 255, 0);
+}
+.option h4 span{
+    color: gold;
+    font-weight: 500;
+}
+.option h4{
+    font-weight: 300;
+}
+@media (max-width: 900px) {
+    .button{
+        font-size: small;
+    }
+    p, li{
+        font-size: small;
+    }   
+    h1{
+        font-size: large;
+    }
+    h2{
+        font-size: medium;
+    }
+    h3{
+        font-size: small;
+    }
+    h4{
+        font-size: small;
+    }
+    .project{
+        width: 90%;
+        align-items: center;
+    }
+    main{
+        padding: 2rem;
+    }
+    .projects{
+        padding: 1rem;
+    }
+}
+@media (max-width: 500px) {
+    main{
+        padding: 1rem;
+    }
+    .projects{
+        padding: .5rem;
+    }
+>>>>>>> a1b1fc0ed8e7a5e312fc8964576a33db58429a79
+}
